@@ -230,5 +230,5 @@ html {
   color: rgb(212, 63, 63);
   background-color: #fff;
   transition: 0.5s all;
-  border-color: black;
+  border-color: rgb(3, 3, 3);
 }
