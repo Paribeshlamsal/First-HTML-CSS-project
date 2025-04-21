@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Nav bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relatives;
+    top: 0px;
+}
+#navbar::before{
+    content: "";
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+/* Images */
+#logo{
+    margin: 2px 25px;
+    
+}
+#logo img{
+    height: 70px;
+    margin: 9px 5px 2px 3px;
+    padding:0px;
+    cursor: pointer;
+
+}
+#navbar ul{
+    display: flex;
+}
+
+
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+
+#navbar ul li a{
+    color: rgb(254, 254, 254);
+   display:block;
+   padding: 5px 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: rgb(248, 243, 242);
+    background-color: rgb(7, 7, 7);
+   
+    transition: 0.5s;
+    
+   
+}
+   
+/* Home */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 100px;
+    justify-content: center;
+    align-items: center;
+    height: 675px;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url(pizzu.jpg) no-repeat center;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.8;
+    filter: brightness(30%);
+
+}
+#home h1{
+    color: rgb(248, 243, 243);
+    font-size: 4rem;
+}
+#home p{
+    color:white;
+    text-align: center;
+    font-size: 1.9rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#services{
+    margin: 30px;
+    display: flex;
+}
+#services .box{
+    border: 2px solid brown;
+    border-radius: 23px;
+    margin: 10px;
+    background-color: rgb(252, 249, 249);
+    padding: 15px;
+    cursor: pointer;
+    transition: 2s;
+}
+#services .box:hover{
+    color: white;
+    background-color: rgb(40, 35, 35);
+
+    
+}
+
+#services .box img{
+    height: 100px;
+    margin: auto;
+    display: block;
+    padding: 30px;
+    border-radius: 150px;
+
+
+}
+#client-section{
+    height: 40px;
+    position: relative;
+    margin: 10px;
+
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url(pizza.jpg) no-repeat center;
+
+   
+    height: 350px;
+    width: 100%;
+    
+    z-index: -1;
+    opacity: 0.3;
+
+
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#clients img{
+    height: 150px;
+
+    
+}
+.client-item{
+    padding: 40px;
+
+}
+
+
+
+
+.h-primary{
+    font-size: 2rem;
+    padding: 12px;
+}
+.h-secondary{
+    font-size: 3rem;
+    padding: 15px;
+}
+.button{
+    padding: 5px 25px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 75px;
+    font-size: 1.4rem;
+    border-radius: 12px;
+    cursor: pointer;
+    
+    
+    
+}
+.button:hover{
+    color: red;
+    background-color:#fff;
+    transition: 0.5s all;
+    border-color: black;
+
+    
+    
+    
+    
+}
+
+.center{
+    text-align: center;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+}
+#contact{
+    position: relative;
+    margin-top: 330px;
+    
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    background: url(contact.jpg)no-repeat center center/cover;
+    filter: brightness(40%);
+}
+
+    .form-group{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(220, 218, 218);
+        font-weight: 600;
+    }
+    h1{
+        font-size: 3rem;
+        font-weight: 600;
+        background-image: linear-gradient(to left,#c6300f,#c3c3cd);
+        color: transparent;
+        background-clip: text;
+    }
+    input{
+        border: none;
+        border-radius: 50px;
+        padding: 10px;
+        margin: 10px;
+    }
+    textarea{
+        border: none;
+        margin: 10px;
+        border-radius: 50px;
+        padding: 15px;
+
+
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    .send{
+        padding: 5px 25px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 75px;
+    font-size: 1.4rem;
+    border-radius: 12px;
+    cursor: pointer;
+    align-content: center;
+
+    }
+    .send:hover{
+        color: red;
+    background-color:#fff;
+    transition: 0.5s all;
+    border-color: black;
+
+       
+
+    }
+    
